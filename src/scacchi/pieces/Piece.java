@@ -43,12 +43,12 @@ public abstract class Piece {
 	/**
 	 * 
 	 * @param posPedina
-	 * @param scacchiera
+	 * @param board
 	 * @return array multidimensionale che indica le mosse possibili della pedina
 	 * 0 se NON si può muovere
 	 * 1 se può muoversi
 	 * 2 se può mangiare
 	 */
 	public abstract int[][] possibleMoves(Position posPedina,
-			Piece[][] scacchiera);
+			Piece[][] board);
 }
