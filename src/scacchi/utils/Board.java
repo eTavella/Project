@@ -94,8 +94,8 @@ public class Board {
 
 	/**
 	 * 
-	 * @param startcposizione attuale della pedina
-	 * @param end: posizione di arrivo della pedina
+	 * @param start posizione attuale della pedina
+	 * @param end posizione di arrivo della pedina
 	 * @param boardPanel pannello della scacchiera
 	 * 
 	 * @return true se riesco a muovere, altrimenti vuol dire che c'è scacco
